@@ -19,9 +19,14 @@
   "ResourceOrderSettings": [
     {"name":"obj_enemy_dog","order":2,"path":"objects/obj_enemy_dog/obj_enemy_dog.yy",},
     {"name":"obj_shell","order":1,"path":"objects/obj_shell/obj_shell.yy",},
+    {"name":"spr_background","order":6,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"spr_enemy_dog","order":1,"path":"sprites/spr_enemy_dog/spr_enemy_dog.yy",},
+    {"name":"spr_collision_floor","order":4,"path":"sprites/spr_collision_floor/spr_collision_floor.yy",},
     {"name":"spr_shell","order":2,"path":"sprites/spr_shell/spr_shell.yy",},
+    {"name":"spr_placeholder","order":5,"path":"sprites/spr_placeholder/spr_placeholder.yy",},
+    {"name":"obj_collision_floor","order":4,"path":"objects/obj_collision_floor/obj_collision_floor.yy",},
     {"name":"obj_shell_shadow","order":3,"path":"objects/obj_shell_shadow/obj_shell_shadow.yy",},
+    {"name":"obj_collision_block","order":5,"path":"objects/obj_collision_block/obj_collision_block.yy",},
     {"name":"spr_shell_shadow","order":3,"path":"sprites/spr_shell_shadow/spr_shell_shadow.yy",},
   ],
 }
