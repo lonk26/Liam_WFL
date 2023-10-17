@@ -1,4 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// Destroy the explosion object after finishing its animation
 
 instance_destroy()

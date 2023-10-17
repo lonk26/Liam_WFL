@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// Code if a shell directly hits its own shadow (did not hit player)
 
 instance_destroy(other)
 instance_destroy()
