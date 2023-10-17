@@ -1,8 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_shell_shadow",
-  "eventList": [],
+  "name": "obj_explosion",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_shell_shadow",
-    "path": "sprites/spr_shell_shadow/spr_shell_shadow.yy",
+    "name": "spr_explosion",
+    "path": "sprites/spr_explosion/spr_explosion.yy",
   },
   "spriteMaskId": null,
   "visible": true,

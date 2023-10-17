@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_shell_shadow",
+  "name": "obj_rubble_pile",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_shell_shadow",
-    "path": "sprites/spr_shell_shadow/spr_shell_shadow.yy",
+    "name": "spr_rubble_pile",
+    "path": "sprites/spr_rubble_pile/spr_rubble_pile.yy",
   },
   "spriteMaskId": null,
   "visible": true,
