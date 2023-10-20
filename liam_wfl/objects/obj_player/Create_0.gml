@@ -5,6 +5,7 @@ enum States {
 	searching = 1
 }
 
+searches = 0
 state = States.regular
 player_health = 3
 

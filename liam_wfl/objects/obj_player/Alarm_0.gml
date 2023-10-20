@@ -3,4 +3,11 @@
 /// and delete the rubble pile they were searching.
 
 state = States.regular
-instance_destroy(searchTarget)
+searches += 1
+
+if searches == 3 {
+	
+} else {
+	instance_destroy(searchTarget)
+}
+

@@ -20,7 +20,7 @@ instance_destroy(destroyID)
 other.player_health -= 1
 
 /// If player health is 0, destroy the player object
-if other.player_health == 0 {
+if other.player_health <= 0 {
 	instance_destroy(other)	
 }
 
