@@ -6,7 +6,7 @@ state = States.regular
 searches += 1
 
 if searches == 3 {
-	
+	room_goto(Room_end)
 } else {
 	instance_destroy(searchTarget)
 }

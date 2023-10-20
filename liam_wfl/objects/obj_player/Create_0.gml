@@ -7,6 +7,6 @@ enum States {
 
 searches = 0
 state = States.regular
-player_health = 3
+player_health = 6
 
 searchTarget = noone
