@@ -37,8 +37,9 @@
     {"name":"spr_shell","order":2,"path":"sprites/spr_shell/spr_shell.yy",},
     {"name":"obj_shell_shadow","order":3,"path":"objects/obj_shell_shadow/obj_shell_shadow.yy",},
     {"name":"spr_enemy_crow","order":11,"path":"sprites/spr_enemy_crow/spr_enemy_crow.yy",},
+    {"name":"spr_health","order":12,"path":"sprites/spr_health/spr_health.yy",},
     {"name":"spr_shell_shadow","order":3,"path":"sprites/spr_shell_shadow/spr_shell_shadow.yy",},
     {"name":"obj_dialogue","order":10,"path":"objects/obj_dialogue/obj_dialogue.yy",},
-    {"name":"obj_spawner","order":7,"path":"objects/obj_spawner/obj_spawner.yy",},
+    {"name":"obj_controller","order":7,"path":"objects/obj_controller/obj_controller.yy",},
   ],
 }

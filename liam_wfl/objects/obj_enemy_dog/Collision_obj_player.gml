@@ -10,5 +10,3 @@ if other.dmg_cooldown == false {
 if other.player_health <= 0 {
 	instance_destroy(other)	
 }
-state = crow_States.regular
-

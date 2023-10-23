@@ -58,9 +58,10 @@
     {"id":{"name":"obj_shell_shadow","path":"objects/obj_shell_shadow/obj_shell_shadow.yy",},},
     {"id":{"name":"fnt_dialog","path":"fonts/fnt_dialog/fnt_dialog.yy",},},
     {"id":{"name":"spr_enemy_crow","path":"sprites/spr_enemy_crow/spr_enemy_crow.yy",},},
+    {"id":{"name":"spr_health","path":"sprites/spr_health/spr_health.yy",},},
     {"id":{"name":"spr_shell_shadow","path":"sprites/spr_shell_shadow/spr_shell_shadow.yy",},},
     {"id":{"name":"obj_dialogue","path":"objects/obj_dialogue/obj_dialogue.yy",},},
-    {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
+    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"Room_main","path":"rooms/Room_main/Room_main.yy",},},
   ],
   "RoomOrderNodes": [

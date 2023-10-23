@@ -1,7 +1,8 @@
 /// I don't know why I have to do it like this, but player will get stuck in collision
 /// objects after jumping. 
-while place_meeting(x, y, obj_block) {
-	y -= 0.1	
+
+if instance_place(x,y-1, obj_block) != noone {
+	y -= 1
 }
 
 /// Prevent player movement if they are searching the rubble
@@ -38,7 +39,7 @@ if (keyboard_check(vk_right) and !instance_place(x+move_speed, y - 4, obj_block)
 	image_xscale = 1
 }
 
-if (keyboard_check(vk_space)) {
+if (keyboard_check_pressed(vk_space)) {
 	if (instance_place(x, y+1, obj_block)) {
 		vspeed = jump_height	
 	}
@@ -52,4 +53,10 @@ if (instance_place(x, y+1, obj_block)) {
 
 if vspeed > 12 {
 	vspeed = 12
+}
+
+/// -------------------------- Cheat Codes ----------------------------------------
+
+if keyboard_check_pressed(vk_delete) {
+	player_health += 1	
 }
