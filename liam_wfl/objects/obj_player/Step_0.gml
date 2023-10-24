@@ -60,3 +60,11 @@ if vspeed > 12 {
 if keyboard_check_pressed(vk_delete) {
 	player_health += 1	
 }
+
+if keyboard_check_pressed(vk_insert) {
+	if cht_invulnerable == false {
+		cht_invulnerable = true
+	} else {
+		cht_invulnerable = false	
+	}
+}

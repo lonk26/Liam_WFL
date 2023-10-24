@@ -1,7 +1,7 @@
 {
   "resourceType": "GMFont",
   "resourceVersion": "1.0",
-  "name": "fnt_dialog",
+  "name": "fnt_gameover",
   "AntiAlias": 1,
   "applyKerning": 0,
   "ascender": 30,

@@ -5,6 +5,8 @@ alarm[0] = game_get_speed(gamespeed_fps) * tmr_speed
 // ------------------------- Rubble Spawning --------------------------------------
 
 for (var i = 0; i < 3; i++) {
-	instance_create_layer(generate_x(32), 1855, "Instances_mid", obj_rubble_pile)
+	randomize()
+	rub_x = random_range((1333 * i) + 500, (1333 * (i+1)) - 500)
+	instance_create_layer(rub_x, room_height - 190, "Instances_mid", obj_rubble_pile)
 }
 

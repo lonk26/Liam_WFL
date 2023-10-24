@@ -1,4 +1,4 @@
-/// Redundancy
+/// Collision redundancy
 
 if y < other.y {
 	vspeed = 0

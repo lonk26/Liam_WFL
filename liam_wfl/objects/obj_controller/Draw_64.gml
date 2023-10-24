@@ -6,7 +6,3 @@ if instance_exists(obj_player) {
 	}
 }
 
-if !instance_exists(obj_player) {
-	draw_set_halign(fa_center)
-	draw_text(room_width / 2, room_height / 2, "Game Over! Press R to restart.")
-}

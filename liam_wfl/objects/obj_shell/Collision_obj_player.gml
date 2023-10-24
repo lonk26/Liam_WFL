@@ -17,7 +17,7 @@ with obj_shell_shadow {
 
 /// Destroy associated shell shadow and remove 1 from player health
 instance_destroy(destroyID)
-if other.dmg_cooldown == false {
+if other.dmg_cooldown == false and other.cht_invulnerable == false {
 	other.player_health -= 1
 	other.dmg_cooldown = true
 	other.alarm[1] = 30
