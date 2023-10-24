@@ -44,6 +44,7 @@
     {"id":{"name":"obj_enemy_crow","path":"objects/obj_enemy_crow/obj_enemy_crow.yy",},},
     {"id":{"name":"scr_spawner","path":"scripts/scr_spawner/scr_spawner.yy",},},
     {"id":{"name":"spr_interact","path":"sprites/spr_interact/spr_interact.yy",},},
+    {"id":{"name":"fnt_dialog","path":"fonts/fnt_dialog/fnt_dialog.yy",},},
     {"id":{"name":"scr_text","path":"scripts/scr_text/scr_text.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_rubble_pile_soldier","path":"sprites/spr_rubble_pile_soldier/spr_rubble_pile_soldier.yy",},},
@@ -66,8 +67,8 @@
     {"id":{"name":"Room_main","path":"rooms/Room_main/Room_main.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room_main","path":"rooms/Room_main/Room_main.yy",},},
     {"roomId":{"name":"Room_start","path":"rooms/Room_start/Room_start.yy",},},
+    {"roomId":{"name":"Room_main","path":"rooms/Room_main/Room_main.yy",},},
     {"roomId":{"name":"Room_end","path":"rooms/Room_end/Room_end.yy",},},
   ],
   "templateType": null,
