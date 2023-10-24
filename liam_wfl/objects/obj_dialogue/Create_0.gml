@@ -1,6 +1,17 @@
 // Define the dialog
 
-_text = "Much longer piece of text to test the drawing function - Press Space to go to the next level"
+switch room {
+	case Room_start:
+	_text = "Much longer piece of text to test the drawing function - Press Space to go to the next level"
+	break
+	
+	case Room_end:
+	_text = "This is the end room"
+	break
+	default:
+	
+	break
+}
 
 _text_index = 1
 _typing_speed = 0.25

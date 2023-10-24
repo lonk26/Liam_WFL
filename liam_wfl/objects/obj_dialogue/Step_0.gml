@@ -17,10 +17,12 @@ if _writing {
 			_text_displayed[| _line_index] += _current_char	
 		}
 		_text_index += _typing_speed
+	} else {
+		_writing = false	
 	}
 	
 } else {
-	_writing = false
+	
 }
 
 if keyboard_check_pressed(vk_space) and _writing == false {

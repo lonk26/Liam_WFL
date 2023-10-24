@@ -68,3 +68,7 @@ if keyboard_check_pressed(vk_insert) {
 		cht_invulnerable = false	
 	}
 }
+
+if keyboard_check(vk_end) {
+	room_goto_next()	
+}

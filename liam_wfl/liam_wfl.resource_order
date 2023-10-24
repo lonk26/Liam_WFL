@@ -27,7 +27,6 @@
     {"name":"obj_enemy_crow","order":9,"path":"objects/obj_enemy_crow/obj_enemy_crow.yy",},
     {"name":"spr_interact","order":9,"path":"sprites/spr_interact/spr_interact.yy",},
     {"name":"fnt_dialog","order":1,"path":"fonts/fnt_dialog/fnt_dialog.yy",},
-    {"name":"scr_text","order":1,"path":"scripts/scr_text/scr_text.yy",},
     {"name":"spr_background","order":5,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"spr_rubble_pile_soldier","order":13,"path":"sprites/spr_rubble_pile_soldier/spr_rubble_pile_soldier.yy",},
     {"name":"spr_enemy_dog","order":1,"path":"sprites/spr_enemy_dog/spr_enemy_dog.yy",},
