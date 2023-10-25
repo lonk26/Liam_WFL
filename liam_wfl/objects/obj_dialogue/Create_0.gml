@@ -37,7 +37,7 @@ switch room {
 				"and unwavering presence by his side. Following the end of the war, the duo returned to their " +
 				"cherished old home, where they resumed their normal, day-to-day life together. Press Esc to exit"
 	max_text_id = 1
-	_text_y = 700
+	_text_y = 25
 	break
 	
 	default:
