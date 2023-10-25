@@ -28,7 +28,7 @@ if keyboard_check_pressed(ord("E")) and !(searchTarget == noone) {
 }
 
 
-/// ------------------------ Movement code ---------------------------------------
+/// ------------------------ Control code ---------------------------------------
 if (keyboard_check(vk_left) and !instance_place(x-move_speed, y - 4, obj_block)) {
 	x += -move_speed
 	image_xscale = -1
@@ -43,6 +43,14 @@ if (keyboard_check_pressed(vk_space)) {
 	if (instance_place(x, y+1, obj_block)) {
 		vspeed = jump_height	
 	}
+}
+
+if (keyboard_check_pressed(ord("Q")) and !attacking and !attacking_cooldown) {
+	attacking = true	
+	attacking_cooldown = true
+	self.sprite_index = spr_player_attacking
+	alarm[2] = 30
+	alarm[3] = 60
 }
 
 if (instance_place(x, y+1, obj_block)) {

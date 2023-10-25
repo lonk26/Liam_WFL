@@ -1,5 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// Interaction with player code
+
+if other.attacking == true {
+	instance_destroy()	
+}
 
 if other.dmg_cooldown == false and other.cht_invulnerable == false {
 	other.player_health -= 1
