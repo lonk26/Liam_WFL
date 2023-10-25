@@ -1,5 +1,6 @@
 /// Draw the text
 
+
 /// Credit to chatGPT for assisting me in the text border implementation
 var _border_size = 4
 
@@ -33,9 +34,9 @@ for (var f=0; f<ds_list_size(_text_displayed); f++) {
 			if (i != 0 || j != 0) {
 				draw_set_colour(c_black);
 				draw_text(_text_x + i, _text_y + j + 50 * f, _text_displayed[| f]);
+				draw_set_color(c_white)
+				draw_text(_text_x, _text_y + 50 * f, _text_displayed[| f])
 			}
 		}
 	}
-	draw_set_color(c_white)
-	draw_text(_text_x, _text_y + 50 * f, _text_displayed[| f])
 }

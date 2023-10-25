@@ -28,6 +28,8 @@ if _writing {
 	
 }
 
+/// Logic for moving through pieces of text in the opening room. Makes sure player does not skip to 
+/// Room_main until they have finished reading all dialogues
 if keyboard_check_pressed(vk_space) and _writing == false and text_id == max_text_id and room != Room_end {
 	room_goto_next()	
 } else if keyboard_check_pressed(vk_space) and _writing == false {
@@ -40,6 +42,12 @@ if keyboard_check_pressed(vk_space) and _writing == false and text_id == max_tex
 	ds_list_add(_text_displayed, "")
 }
 
+/// Debug cheat to skip the opening dialogues
 if keyboard_check_pressed(vk_insert) and room != Room_end {
 	room_goto_next()
+}
+
+/// If it is the final room and the final text has finished writing, player can press esc to exit game.
+if keyboard_check_pressed(vk_escape) and room == Room_end and _writing == false {
+	game_end()
 }
