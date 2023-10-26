@@ -1,5 +1,9 @@
-if h_direction == "right" {
-	h_direction = "left"
+
+/// Gravity - Test
+
+if y < other.y {
+	vspeed = 0
 } else {
-	h_direction = "right"	
+	vspeed = 0
+	vspeed += 2
 }
