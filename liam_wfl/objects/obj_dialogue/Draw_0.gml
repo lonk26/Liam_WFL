@@ -15,12 +15,12 @@ if _title = true {
 		for (var j = -_border_size; j <= _border_size; j++) {
 			if (i != 0 || j != 0) {
 				draw_set_colour(c_black);
-				draw_text(400 + i, 100 + j, "Liam: Looking for Love")	;
+				draw_text(400 + i, 100 + j, "Liam: Waiting for Love")	;
 			}
 		}
 	}
 	draw_set_colour(c_white);
-	draw_text(400, 100, "Liam: Looking for Love")
+	draw_text(400, 100, "Liam: Waiting for Love")
 }
 
 draw_set_font(fnt_dialog);
