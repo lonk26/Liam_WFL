@@ -23,6 +23,9 @@ with obj_rubble_pile {
 
 /// If there is an existing search target, and the player pressed "E", begin searching the rubble pile
 if keyboard_check_pressed(ord("E")) and !(searchTarget == noone) {
+	//Play Search Sound
+	audio_play_sound(snd_rubbleSearch,1,false)
+	
 	state = States.searching
 	alarm[0] = 150
 }
@@ -60,6 +63,9 @@ if (keyboard_check_pressed(vk_space)) {
 }
 
 if (keyboard_check_pressed(ord("Q")) and !attacking and !attacking_cooldown) {
+	//Play Attack Bark
+	audio_play_sound(snd_dogBark, 1, false)
+	
 	attacking = true	
 	attacking_cooldown = true
 	self.sprite_index = spr_player_attacking

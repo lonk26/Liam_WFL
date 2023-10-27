@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_background_music",
+  "name": "snd_bombFall",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 90.0,
+  "duration": 0.918753,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_background_music.wav",
+  "soundFile": "snd_bombFall.wav",
   "type": 0,
-  "volume": 0.08,
+  "volume": 0.23,
 }
