@@ -1,12 +1,14 @@
 /// Draw the text
 
 
-/// Credit to chatGPT for assisting me in the text border implementation
+/// Credit to chatGPT for assisting me in the logic of the text border implementation
 var _border_size = 4
 
-draw_sprite(_backgrounds[background_id], 0, 0, 0)
+if background_id <= array_length(_backgrounds) - 1 {
+	draw_sprite(_backgrounds[background_id], 0, 0, 0)
+}
 
-if _title = true {
+if _title == true {
 	draw_set_font(fnt_title);
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_top);
@@ -21,6 +23,11 @@ if _title = true {
 	}
 	draw_set_colour(c_white);
 	draw_text(400, 100, "Liam: Waiting for Love")
+	if background_id > array_length(_backgrounds) - 1 {
+		draw_set_halign(fa_left)
+		draw_set_color(c_red)
+		draw_text(600, 600, "Instructions:")	
+	}
 }
 
 draw_set_font(fnt_dialog);

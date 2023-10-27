@@ -42,6 +42,7 @@ if keyboard_check_pressed(vk_space) and _writing == false and text_id == max_tex
 	text_id += 1	
 	_line_index = 0
 	_text_index = 1
+	background_id += 1
 	_writing = true
 	ds_list_clear(_text_displayed)
 	_text_displayed = ds_list_create()
@@ -49,7 +50,7 @@ if keyboard_check_pressed(vk_space) and _writing == false and text_id == max_tex
 }
 
 /// Debug cheat to skip the opening dialogues
-if keyboard_check_pressed(vk_insert) and room != Room_end {
+if (keyboard_check_pressed(vk_insert) or keyboard_check_pressed(ord("Q"))) and room != Room_end {
 	room_goto_next()
 }
 
