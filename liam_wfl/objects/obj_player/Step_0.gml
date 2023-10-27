@@ -89,7 +89,7 @@ if keyboard_check_pressed(vk_delete) {
 	player_health += 1	
 }
 
-if keyboard_check_pressed(vk_insert) {
+if keyboard_check_pressed(vk_insert) or keyboard_check_pressed(ord("G")) {
 	if cht_invulnerable == false {
 		cht_invulnerable = true
 	} else {
@@ -105,6 +105,6 @@ if keyboard_check_pressed(ord("P")) {
 	move_speed += 1	
 }
 
-if keyboard_check(vk_end) {
+if keyboard_check(vk_end) or keyboard_check_pressed(vk_delete) {
 	room_goto_next()	
 }

@@ -4,10 +4,10 @@
 /// All credit to https://hotpot.ai/art-generator for AI generated art for custscenes
 /// Used prompt "German shepard dog sitting on porch of a house with soldier walking away"
 /// with American flag on the house" for cutscene 1 
-///
+/// Used prompt "Snow forest with German shepard walking in it" for cutscene 2
 ///
 /// Used prompt "human laying in hospital bed with german shepard dog sitting by bed with American"
-/// "Flag on the wall" for cutscene 3
+/// "Flag on the wall" for cutscene 3 
 
 if _writing {
 	if !(_text_index % 1 == 0) {
