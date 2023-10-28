@@ -36,6 +36,7 @@
   "resources": [
     {"id":{"name":"Room_end","path":"rooms/Room_end/Room_end.yy",},},
     {"id":{"name":"spr_background_cutscene3","path":"sprites/spr_background_cutscene3/spr_background_cutscene3.yy",},},
+    {"id":{"name":"snd_dogHurt","path":"sounds/snd_dogHurt/snd_dogHurt.yy",},},
     {"id":{"name":"snd_bombHit","path":"sounds/snd_bombHit/snd_bombHit.yy",},},
     {"id":{"name":"obj_enemy_dog","path":"objects/obj_enemy_dog/obj_enemy_dog.yy",},},
     {"id":{"name":"obj_rubble_pile","path":"objects/obj_rubble_pile/obj_rubble_pile.yy",},},

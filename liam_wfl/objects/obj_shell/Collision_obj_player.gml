@@ -1,4 +1,7 @@
 /// Code if a shell hits a player
+//Play dogHurt sound
+audio_sound_pitch(snd_dogHurt, random_range(0.8, 1.2));
+audio_play_sound(snd_dogHurt,1,false)
 
 /// Destroy the shell
 instance_destroy()
