@@ -31,7 +31,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.1.102",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"Room_end","path":"rooms/Room_end/Room_end.yy",},},
@@ -66,6 +66,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"snd_cutscene_music","path":"sounds/snd_cutscene_music/snd_cutscene_music.yy",},},
     {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},},
+    {"id":{"name":"obj_fullscreen","path":"objects/obj_fullscreen/obj_fullscreen.yy",},},
     {"id":{"name":"spr_background_cutscene1","path":"sprites/spr_background_cutscene1/spr_background_cutscene1.yy",},},
     {"id":{"name":"obj_bgMusic","path":"objects/obj_bgMusic/obj_bgMusic.yy",},},
     {"id":{"name":"spr_player_attacking","path":"sprites/spr_player_attacking/spr_player_attacking.yy",},},

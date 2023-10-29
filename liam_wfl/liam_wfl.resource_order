@@ -46,6 +46,7 @@
     {"name":"obj_player","order":4,"path":"objects/obj_player/obj_player.yy",},
     {"name":"snd_cutscene_music","order":1,"path":"sounds/snd_cutscene_music/snd_cutscene_music.yy",},
     {"name":"spr_explosion","order":10,"path":"sprites/spr_explosion/spr_explosion.yy",},
+    {"name":"obj_fullscreen","order":14,"path":"objects/obj_fullscreen/obj_fullscreen.yy",},
     {"name":"spr_background_cutscene1","order":14,"path":"sprites/spr_background_cutscene1/spr_background_cutscene1.yy",},
     {"name":"obj_bgMusic","order":11,"path":"objects/obj_bgMusic/obj_bgMusic.yy",},
     {"name":"spr_player_attacking","order":17,"path":"sprites/spr_player_attacking/spr_player_attacking.yy",},

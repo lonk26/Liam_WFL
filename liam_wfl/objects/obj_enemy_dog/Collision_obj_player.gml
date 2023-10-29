@@ -1,10 +1,10 @@
 /// Interaction with player code
 
 if other.attacking == true {
-	instance_destroy()	
+	instance_destroy()
 }
 
-if other.dmg_cooldown == false and other.cht_invulnerable == false {
+else if other.dmg_cooldown == false and other.cht_invulnerable == false {
 	//Play dogHurt sound
 	audio_sound_pitch(snd_dogHurt, random_range(0.8, 1.2));
 	audio_play_sound(snd_dogHurt,1,false)
